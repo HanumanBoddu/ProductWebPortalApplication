@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "65c9",
+      "name": "Hanuman Kumar Babu Boddu",
+      "mobileNumber": "7569906878",
+      "email": "hanuman.boddu@godigit.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "09be",
+      "name": "Rohith Gundu",
+      "mobileNumber": "",
+      "email": "",
+      "password": ""
+    }
+  ]
+}
