@@ -20,7 +20,7 @@
 </div>
 <div class="product-container">
     <div class="something">
-        <app-product-card *ngFor="let product of filteredProducts" [product]="product"></app-product-card>
+        <app-product-card *ngFor="let product of filteredProducts | search:searchText" [product]="product"></app-product-card>
     </div>
 </div>
 

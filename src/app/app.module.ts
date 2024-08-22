@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { ProductCardComponent } from './Components/product-card/product-card.component';
+import { SearchPipe } from './pipe/search.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProductCardComponent } from './Components/product-card/product-card.com
     SignUpComponent,
     LoginComponent,
     DashboardComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    SearchPipe
   ],
   imports: [
       BrowserModule,
