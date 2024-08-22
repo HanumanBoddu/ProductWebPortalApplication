@@ -11,8 +11,8 @@
 <div class="filter-tab">
     <mat-form-field appearance="fill">
         <mat-label>Filter</mat-label>
-        <mat-select>
-            <mat-option value="price">price</mat-option>
+        <mat-select (selectionChange)="onFilterChange($event.value)">
+            <mat-option value="price" >price</mat-option>
             <mat-option value="deliveryDays">deliveryDays</mat-option>
             <mat-option value="rating">rating</mat-option>
         </mat-select>
@@ -20,7 +20,7 @@
 </div>
 <div class="product-container">
     <div class="something">
-        <app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
+        <app-product-card *ngFor="let product of filteredProducts" [product]="product"></app-product-card>
     </div>
 </div>
 

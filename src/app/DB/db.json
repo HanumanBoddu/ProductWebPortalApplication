@@ -21,8 +21,8 @@
       "name": "Samsung Galaxy M31",
       "price": "14999",
       "description": "Samsung Galaxy M31 (Space Black, 6GB RAM, 128GB Storage)",
-      "rating": "4.5",
-      "deliveryDays": "2",
+      "rating": "4.1",
+      "deliveryDays": "1",
       "seller": "Amazon"
     },
     {
@@ -30,45 +30,81 @@
       "name": "OnePlus 8 Pro",
       "price": "54999",
       "description": "OnePlus 8 Pro (Onyx Black 8GB RAM+128GB Storage)",
-       "rating": "4.5",
-        "deliveryDays": "2",
-        "seller": "Amazon"
+      "rating": "4.2",
+      "deliveryDays": "2",
+      "seller": "Amazon"
     },
     {
       "id": "3",
       "name": "Apple iPhone 11",
       "price": "64900",
       "description": "Apple iPhone 11 (64GB) - Black",
-        "rating": "4.5",
-        "deliveryDays": "2",
-        "seller": "Amazon"
+      "rating": "4.5",
+      "deliveryDays": "3",
+      "seller": "Amazon"
     },
     {
       "id": "4",
       "name": "Samsung Galaxy M21",
       "price": "13999",
       "description": "Samsung Galaxy M21 (Midnight Blue, 4GB RAM, 64GB Storage)",
-      "rating": "4.5",
-        "deliveryDays": "2",
-        "seller": "Amazon"
+      "rating": "3.5",
+      "deliveryDays": "1",
+      "seller": "Amazon"
     },
     {
       "id": "5",
       "name": "Redmi Note 9 Pro",
       "price": "13999",
       "description": "Redmi Note 9 Pro (Interstellar Black, 4GB RAM, 64GB Storage)",
-        "rating": "4.5",
-            "deliveryDays": "2",
-            "seller": "Amazon"
+      "rating": "3.8",
+      "deliveryDays": "2",
+      "seller": "Amazon"
     },
     {
       "id": "6",
       "name": "Samsung Galaxy M31",
       "price": "16499",
       "description": "Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)",
-        "rating": "4.5",
-            "deliveryDays": "2",
-            "seller": "Amazon"
+      "rating": "4.8",
+      "deliveryDays": "3",
+      "seller": "Amazon"
+    },
+    {
+      "id": "7",
+      "name": "OnePlus 7T Pro",
+      "price": "47999",
+      "description": "OnePlus 7T Pro (Haze Blue, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 4085mAH Battery)",
+      "rating": "2.8",
+      "deliveryDays": "1",
+      "seller": "Amazon"
+    },
+    {
+      "id": "8",
+      "name": "Apple iPhone 11 Pro",
+      "price": "106600",
+      "description": "Apple iPhone 11 Pro (64GB) - Space Grey",
+      "rating": "4.9",
+      "deliveryDays": "2",
+      "seller": "Amazon"
+    },
+    {
+      "id": "9",
+      "name": "Samsung Galaxy M21",
+      "price": "13999",
+      "description": "Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)",
+      "rating": "3.5",
+      "deliveryDays": "3",
+      "seller": "Amazon"
+    },
+    {
+      "id": "10",
+      "name": "Redmi Note 9 Pro",
+      "price": "13999",
+      "description": "Redmi Note 9 Pro (Glacier White, 4GB RAM, 64GB Storage)",
+      "rating": "3.8",
+      "deliveryDays": "1",
+      "seller": "Amazon"
     }
 ]
 }
