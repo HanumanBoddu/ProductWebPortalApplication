@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
         res.forEach((element:any) => {
           if(element.email===this.loginForm.value.email && element.password===this.loginForm.value.password){
             console.log("Login Successful");
-            this.router.navigate(['/productsList']);
+            this.router.navigate(['']);
           }
         });
       },
