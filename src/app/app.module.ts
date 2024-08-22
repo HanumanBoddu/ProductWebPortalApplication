@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { ProductCardComponent } from './Components/product-card/product-card.component';
 import { SearchPipe } from './pipe/search.pipe';
+import { ProductDetailComponent } from './Components/product-detail/product-detail.component';
 // import { DialogContentComponent } from './Components/dialog-content/dialog-content.component';
 
 @NgModule({
@@ -23,6 +24,7 @@ import { SearchPipe } from './pipe/search.pipe';
     DashboardComponent,
     ProductCardComponent,
     SearchPipe,
+    ProductDetailComponent,
   ],
   imports: [
       BrowserModule,
