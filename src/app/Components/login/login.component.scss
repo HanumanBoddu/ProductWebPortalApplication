@@ -1,0 +1,21 @@
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.registerDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+mat-form-field,button{
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
