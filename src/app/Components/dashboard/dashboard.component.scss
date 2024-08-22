@@ -5,10 +5,33 @@ mat-form-field {
   margin-top: 20px;
 }
 
+::ng-deep .mat-form-field-wrapper {
+ padding-bottom: 0;
+}
+
 mat-icon{
    margin-right: 10px;
 }
 
+::ng-deep .mat-form-field-underline {
+  width:0px !important;
+}
+
 .searchBar{
     display: flex;
+}
+
+.filter-tab{
+    margin-left: 890px;
+    width:10%;
+}
+
+.something{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.product-container{
+  height:auto;
+  margin-left: 140px;
 }

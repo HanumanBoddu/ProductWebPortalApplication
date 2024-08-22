@@ -11,13 +11,15 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import { ProductCardComponent } from './Components/product-card/product-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    ProductCardComponent
   ],
   imports: [
       BrowserModule,
