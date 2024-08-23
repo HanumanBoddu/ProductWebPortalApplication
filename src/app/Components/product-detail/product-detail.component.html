@@ -5,7 +5,25 @@
     <p><strong>Rating:</strong>{{data.rating}}</p>
     <p><strong>Delivery Days:</strong>{{data.deliveryDays}}</p>
     <p><strong>Description:</strong>{{data.description}}</p>
-    <!-- <p><strong>Add Review:</strong><input type="text" style="width: 100%;"></p> -->
+    <!-- <div class="container">
+      <mat-grid-list cols="1" rowHeight="2:1" gutterSize="16px">
+      <mat-grid-tile>
+        <p><strong>Name:</strong>{{data.name}}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Price:</strong>{{data.price}}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Rating:</strong>{{data.rating}}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Delivery Days:</strong>{{data.deliveryDays}}</p>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <p><strong>Description:</strong>{{data.description}}</p>
+      </mat-grid-tile>
+    </mat-grid-list>  
+    </div> -->
     <div>
       <div *ngFor="let review of reviews">
         <p>{{review}}</p>

@@ -1,11 +1,15 @@
-<p>login works!</p>
-<p>sign-up works!</p>
 <form class="registerForm" [formGroup]="loginForm">
     <div class="registerDiv">
         <div class="inputFields">
             <mat-form-field>
                 <mat-label>Email</mat-label>
-                <input type="text" matInput placeholder="Enter Email" name="email" formControlName="email">
+                <input type="text" matInput placeholder="Enter Email" name="email" formControlName="email" required email>
+                <mat-error *ngIf="loginForm.get('email')?.hasError('required')">
+                    Email is required
+                </mat-error>
+                <mat-error *ngIf="loginForm.get('email')?.hasError('email')">
+                    Enter a valid email
+                </mat-error>
               </mat-form-field>
         </div>
         <div class="inputFields">

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup,Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
 
@@ -16,9 +16,9 @@ export class SignUpComponent implements OnInit {
 
   ngOnInit(): void {
      this.regForm = this.fb.group({
-       name:[''],
-      mobileNumber:[''],
-      email:[''],
+       name:['',Validators.required],
+      mobileNumber:['',[Validators.required, Validators.pattern('[0-9]{10}')]],
+      email:['',[Validators.required, Validators.email]],
       password:['']
     })
   }

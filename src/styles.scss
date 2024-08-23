@@ -1,4 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+    height: 100%; 
+    margin:0;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:600px){
+    body{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+@media (min-width: 600px) {
+    .container {
+       flex-direction: row;
+       justify-content: space-between;
+    }
+}

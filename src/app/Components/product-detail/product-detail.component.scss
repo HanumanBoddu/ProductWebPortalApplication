@@ -1,0 +1,28 @@
+// .container {
+//     display: flex;
+//     flex-direction: column;
+//     padding: 16px;
+//   }
+  
+//   @media (min-width: 600px) {
+//     .container {
+//       flex-direction: row;
+//       justify-content: space-between;
+//     }
+//   }
+  
+//   mat-grid-list {
+//     width: 100%;
+//   }
+  
+//   @media (min-width: 600px) {
+//     mat-grid-list {
+//       grid-template-columns: repeat(2, 1fr);
+//     }
+//   }
+  
+//   @media (min-width: 1024px) {
+//     mat-grid-list {
+//       grid-template-columns: repeat(4, 1fr);
+//     }
+//   }

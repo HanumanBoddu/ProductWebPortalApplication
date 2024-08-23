@@ -1,6 +1,7 @@
 mat-form-field {
   background-color:#f0f4f5;  
-  margin-left: 120px;  
+  // margin-left: 120px;  
+  margin-left: 10%;
   width: 80%;
   margin-top: 20px;
 }
@@ -10,7 +11,8 @@ mat-form-field {
 }
 
 mat-icon{
-   margin-right: 10px;
+  //  margin-right: 10px;
+  margin-right: 2%;
 }
 
 ::ng-deep .mat-form-field-underline {
@@ -22,7 +24,7 @@ mat-icon{
 }
 
 .filter-tab{
-    margin-left: 890px;
+    margin-left: 72%;
     width:10%;
 }
 
@@ -34,4 +36,36 @@ mat-icon{
 .product-container{
   height:auto;
   margin-left: 140px;
+}
+
+@media(max-width:600px){
+  .something{
+    grid-template-columns: 1fr 1fr;
+  }
+  .product-container{
+    padding: 24px;
+    justify-content: center;
+  }
+  mat-label{
+    display: none;
+  }
+  .searchBar{
+    justify-content: center;
+  }
+}
+
+@media(max-width:450px){
+  .something{
+    grid-template-columns: 1fr;
+  }
+  .product-container{
+    padding: 24px;
+    justify-content: center;
+  }
+  mat-label{
+    display: none;
+  }
+  .searchBar{
+    justify-content: center;
+  }
 }
