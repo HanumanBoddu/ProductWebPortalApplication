@@ -11,7 +11,10 @@ export class ProductService {
   getProducts():Observable<any>{
     return this.http.get(this.apiUrl);
   }
-  // getProductById(id:any):Observable<any>{
-  //   return this.http.get(`${this.apiUrl}/${id}`);
-  // }
+  getProduct(id:any):Observable<any>{
+    return this.http.get(`${this.apiUrl}/${id}`);
+  }
+  addReview(productId:any,review:any):Observable<any>{
+    return this.http.patch(`${this.apiUrl}/${productId}`,{reviews:review});
+  }
 }

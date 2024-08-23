@@ -5,6 +5,14 @@
     <p><strong>Rating:</strong>{{data.rating}}</p>
     <p><strong>Delivery Days:</strong>{{data.deliveryDays}}</p>
     <p><strong>Description:</strong>{{data.description}}</p>
+    <!-- <p><strong>Add Review:</strong><input type="text" style="width: 100%;"></p> -->
+    <div>
+      <div *ngFor="let review of reviews">
+        <p>{{review}}</p>
+      </div>
+      <input [(ngModel)]="newReview" placeholder="Add a review">
+      <button (click)="addReview()">Submit</button>
+    </div>
 </div>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>
